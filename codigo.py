@@ -38,7 +38,7 @@ time.sleep(3)
 tabela = pandas.read_csv('produtos.csv')
 print(tabela)
 
-# 4 - cadastrar todos os produtos da lista
+# 4 - cadastrar os produtos do arquivo
 for line in tabela.index:
         # codigo
     pyautogui.click(x=714, y=343)
