@@ -64,7 +64,7 @@ for line in tabela.index:
     pyautogui.press('tab')
     custo = str(tabela.loc[line, 'custo'])
     pyautogui.write(custo)
-        # obs
+        # observação
     pyautogui.press('tab')
     obs = str(tabela.loc[line, "obs"])
     if obs != 'nan':
